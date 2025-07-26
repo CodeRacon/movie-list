@@ -1,8 +1,13 @@
 @import 'bootstrap/scss/bootstrap';
 
-#root {
-    max-width: 1440px;
-    margin: 0 auto;
+main {
     padding: 2rem;
-    text-align: center;
+}
+
+.movie-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
